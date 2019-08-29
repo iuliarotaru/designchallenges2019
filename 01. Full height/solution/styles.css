@@ -13,7 +13,7 @@ header {
   height: 70px;
 }
 #container {
-  min-height: 100%; /*full height, the footer will jump down below */
+  min-height: 100%; /*container gets full height, the footer will jump down below */
   background-color: lightcyan;
 }
 main {
@@ -25,8 +25,8 @@ footer {
   background-color: lightblue;
   position: relative;
   height: 100px;
-  margin-top: -100px; /*container 100vh, so footer maring-top is - his height to get back in the viewheight */
-  clear: both; /*floating elements now allowed to float on the both sides */
+  margin-top: -100px; /*container is full height, so footer's top margin is-his height in order to get back in the viewheight */
+  clear: both; /*floating elements not allowed to float on the both sides */
 }
 p {
   margin-top: 10px;
